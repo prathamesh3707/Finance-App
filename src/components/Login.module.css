@@ -186,3 +186,7 @@ input:hover {
     font-size: 0.2rem;
   }
 }
+
+.error {
+  color: red;
+}
