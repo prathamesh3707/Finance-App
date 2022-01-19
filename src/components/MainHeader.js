@@ -8,12 +8,7 @@ function MainHeader() {
       <nav>
         <ul>
           <h1 className={classes.logo}>Finance App</h1>
-          {/* 
-          <li>
-            <NavLink activeClassName={classes.active} to="/welcome">
-              welcome
-            </NavLink>
-          </li> */}
+
           <li>
             <NavLink activeClassName={classes.active} to="/chapters">
               chapters

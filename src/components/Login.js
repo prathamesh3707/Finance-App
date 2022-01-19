@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import classes from "./Login.module.css";
 
-function Login() {
+function Login(props) {
   const loginHandler = () => {
     const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     let enteredEmail = document.getElementById("mail").value;
@@ -11,8 +11,20 @@ function Login() {
       alert("Password should be at least 5 characters");
     }
     if (emailRegex.test(enteredEmail)) {
+      {
+        props.login(false);
+      }
     } else {
       setError(true);
+    }
+  };
+
+  const signUpHandler = () => {
+    {
+      props.signUp(true);
+    }
+    {
+      props.login(false);
     }
   };
 
@@ -55,8 +67,10 @@ function Login() {
           </div>
           <div className={classes.flex_item1}>
             <div className={`${classes.link} ${classes.footer}`}>
-              <a href="#">Forgot Password</a>&emsp;&emsp;&emsp;
-              <a href="#">Sign Up</a>
+              {/* <a href="#">Forgot Password</a>&emsp;&emsp;&emsp; */}
+              <button onClick={signUpHandler} className={classes.signUp}>
+                Sign Up
+              </button>
             </div>
           </div>
         </form>

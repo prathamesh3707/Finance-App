@@ -6,9 +6,9 @@ export default function Chapters() {
     <section>
       <h1>This is Chapters page</h1>
       <ul>
-        <Link to="/products/p1">C1</Link>
-        <Link to="/products/p2">C2</Link>
-        <Link to="/products/p3">C3</Link>
+        <Link to="/chapters/c1">C1</Link>
+        <Link to="/chapters/c2">C2</Link>
+        <Link to="/chapters/c3">C3</Link>
       </ul>
     </section>
   );

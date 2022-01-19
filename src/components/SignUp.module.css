@@ -1,0 +1,162 @@
+.signup_box {
+  width: 36%;
+  height: 59%;
+  border-radius: 5%;
+  background: rgb(243, 236, 236);
+  top: 50%;
+  left: 75%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+h1 {
+  margin: -20px 157px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+form {
+  margin: 43px 14px;
+  position: relative;
+  left: -1%;
+}
+.form_group input {
+  width: 92%;
+  padding: 0.9rem;
+  margin: 10px;
+  border: 0px;
+  border-radius: 9px;
+  font-size: 1rem;
+  position: relative;
+}
+
+button {
+  background-color: #c2eefb;
+  border-radius: 100px;
+  box-shadow: rgba(72, 159, 194, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: rgb(64, 10, 163);
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  padding: 7px 25px;
+  text-align: center;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  width: 40%;
+  position: relative;
+  left: 25.5%;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: #bbdde7;
+  color: rgb(92, 18, 230);
+}
+
+@media screen and (max-width: 1420px) {
+  .signup_box {
+    width: 85%;
+    height: 74%;
+    border-radius: 5%;
+    background: rgb(243, 236, 236);
+    top: 48%;
+    left: 26%;
+    position: absolute;
+    transform: translate(-21.7%, -51%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+
+  h1 {
+    margin: -20px 53px;
+    text-align: center;
+  }
+
+  button {
+    background-color: #c2eefb;
+    border-radius: 100px;
+    box-shadow: rgba(72, 159, 194, 0.2) 0 -25px 18px -14px inset,
+      rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+      rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+      rgba(44, 187, 99, 0.15) 0 16px 32px;
+    color: rgb(64, 10, 163);
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    padding: 7px 25px;
+    text-align: center;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    width: 55%;
+    position: relative;
+    left: 18.5%;
+    margin: 20px;
+  }
+
+  .form_group input {
+    width: 92%;
+    padding: 0.9rem;
+    margin: 10px;
+    border: 0px;
+    border-radius: 9px;
+    font-size: 1rem;
+    position: relative;
+  }
+
+  @media screen and (max-width: 359px) {
+    .signup_box {
+      width: 96%;
+      height: 83%;
+      border-radius: 5%;
+      background: rgb(243, 236, 236);
+      top: 50%;
+      left: 23%;
+      position: absolute;
+      transform: translate(-21.7%, -51%);
+      box-sizing: border-box;
+      padding: 70px 30px;
+    }
+
+    h1 {
+      margin: -24px 53px;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    .form_group input {
+      width: 117%;
+      padding: 0.9rem;
+      margin: 10px;
+      border: 0px;
+      border-radius: 9px;
+      font-size: 1rem;
+      position: relative;
+      left: -22%;
+    }
+
+    button {
+      background-color: #c2eefb;
+      border-radius: 100px;
+      box-shadow: rgb(72 159 194 / 20%) 0 -25px 18px -14px inset,
+        rgb(44 187 99 / 15%) 0 1px 2px, rgb(44 187 99 / 15%) 0 2px 4px,
+        rgb(44 187 99 / 15%) 0 4px 8px, rgb(44 187 99 / 15%) 0 8px 16px,
+        rgb(44 187 99 / 15%) 0 16px 32px;
+      color: rgb(64, 10, 163);
+      cursor: pointer;
+      font-family: "Montserrat", sans-serif;
+      padding: 7px 25px;
+      text-align: center;
+      transition: all 250ms;
+      border: 0;
+      font-size: 16px;
+      width: 66%;
+      position: relative;
+      left: 4.5%;
+      margin: 20px;
+    }
+  }
+}
